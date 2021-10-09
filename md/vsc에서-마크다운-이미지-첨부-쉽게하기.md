@@ -99,7 +99,7 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 ![](images/vsc-markdown/2021-10-08-01-22-10.png)
 
 
-<br>
+<br><br><br>
 
 [목차로 이동](#index)
 
