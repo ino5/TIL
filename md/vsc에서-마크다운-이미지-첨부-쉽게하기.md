@@ -4,15 +4,17 @@
 
 # vsc에서 마크다운 이미지 첨부 쉽게하기
 
-## 📒 목차 <a id="index"></a>
-
-[📖 소개](#introduction) <br>
-[📖 사용 방법](#how-to-do) <br>
-[📖 이미지 저장 경로 설정하기](#setting-image-path) <br>
-
 <br>
 
-## 📖 소개 <a id="introduction"></a>
+# 📒 목차 <a id="index"></a>
+
+- [📖 소개](#introduction) <br>
+- [📖 사용 방법](#how-to-do) <br>
+- [📖 이미지 저장 경로 설정하기](#setting-image-path) <br>
+
+<br><br>
+
+# 📖 소개 <a id="introduction"></a>
 
 [목차로 이동](#index)
 
@@ -22,9 +24,9 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 단축키 하나로 이미지 파일 생성에서 첨부까지 쉽게 할 수 있다.
 
-<br>
+<br><br>
 
-## 📖 사용 방법 <a id="how-to-do"></a> 
+# 📖 사용 방법 <a id="how-to-do"></a> 
 
 [목차로 이동](#index)
 
@@ -34,7 +36,7 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 <br>
 
-![](images/2021-10-08-01-20-17.png)
+![](images/vsc-markdown/2021-10-08-01-20-17.png)
 
 <br><br>
 
@@ -46,7 +48,7 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 <br>
 
-![](images/2021-10-08-01-21-15.png)
+![](images/vsc-markdown/2021-10-08-01-21-15.png)
 
 <br>
 
@@ -54,7 +56,7 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 <br><br>
 
-## 📖 이미지 저장 경로 설정하기 <a id="setting-image-path"></a>
+# 📖 이미지 저장 경로 설정하기 <a id="setting-image-path"></a>
 
 [목차로 이동](#index)
 
@@ -64,7 +66,7 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 <br>
 
-![](images/2021-10-08-01-21-43.png)
+![](images/vsc-markdown/2021-10-08-01-21-43.png)
 
 <br><br>
 
@@ -76,25 +78,29 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 붙여넣으려는 md 파일 경로에 images 폴더 내에 저장하고싶다면 `${currentFileDir}/images`로 저장한다.
 
-![](images/2021-10-08-01-21-54.png)
+<br>
+
+![](images/vsc-markdown/2021-10-08-01-21-54.png)
 
 <br><br>
 
 <br>
 
-### ✅ 
+### ✅ `ctrl + alt + v` 로 붙여넣기 실행해보기
+
+`ctrl + alt + v` 입력 시 images 폴더 안에 이미지가 생성되고 붙여넣어진 것을 확인할 수 있다.
+
+<br>
+
+![](images/vsc-markdown/2021-10-08-01-21-59.png)
+
+<br>
+
+![](images/vsc-markdown/2021-10-08-01-22-10.png)
 
 
 <br>
 
-![](images/2021-10-08-01-21-59.png)
+[목차로 이동](#index)
 
-<br><br>
-
-<br>
-
-### ✅ 
-
-<br>
-
-![](images/2021-10-08-01-22-10.png)
+[메인으로 이동](../README.md)
