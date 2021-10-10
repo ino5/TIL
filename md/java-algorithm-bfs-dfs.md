@@ -54,7 +54,8 @@ public class P1260 {
 		
 		map = new boolean[N+1][N+1];
 		isVisited = new boolean[N+1];
-        // 간선 정보 입력
+
+		// 간선 정보 입력
 		for (int i = 0; i < M; i++) {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
@@ -83,7 +84,7 @@ public class P1260 {
 		sc.close();
 	}
 	
-    // dfs 탐색
+	// dfs 탐색
 	public static void dfs() {
 		// 대기열에서 수행할 노드 찾기
 		int x = stk.peek();		
@@ -95,9 +96,8 @@ public class P1260 {
 		}
 
 		// 다음 대기열 추가한다.
-		if (!addStk(x)) {
-			// 더이상 추가할 이웃 노드 없으면, 대기열에서 노드 꺼내기
-			stk.pop();
+		if (!addStk(x)) { // 더이상 추가할 이웃 노드 없으면
+			stk.pop(); // 대기열에서 노드 꺼내기
 		}
 	}
 	
@@ -186,14 +186,14 @@ public class P2606_2 {
 		P = sc.nextInt();
 		map = new boolean[N+1][N+1];
 		isVstd = new boolean[N+1];
-        // 간선 정보 입력
+		// 간선 정보 입력
 		for (int i = 0; i < P; i++) {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			map[a][b] = map[b][a] = true;
 		}
 		
-        // bfs 탐색
+		// bfs 탐색
 		que.add(START_NUM); // 첫 감염 컴퓨터 입력
 		while(!que.isEmpty()) { 
 			bfs();
@@ -206,7 +206,7 @@ public class P2606_2 {
 		sc.close();
 	}
 	
-    // bfs 탐색
+	// bfs 탐색
 	public static void bfs() {
 		// 대기열에서 가져오기
 		int x = que.peek();
