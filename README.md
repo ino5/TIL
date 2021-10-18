@@ -5,6 +5,13 @@ Today I Learned <br>
 
 <br>
 
+# 컴퓨터 구조
+
+- [플립플롭이란 무엇인가?](./md/flip-flop.md)
+
+
+<br>
+
 # 운영체제
 
 - [프로세스 개념](./md/process.md)
