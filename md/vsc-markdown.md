@@ -36,7 +36,7 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 <br>
 
-![](images/vsc-markdown/2021-10-08-01-20-17.png)
+![](md-images/vsc-markdown/2021-10-08-01-20-17.png)
 
 <br><br>
 
@@ -48,7 +48,7 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 <br>
 
-![](images/vsc-markdown/2021-10-08-01-21-15.png)
+![](md-images/vsc-markdown/2021-10-08-01-21-15.png)
 
 <br>
 
@@ -66,7 +66,7 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 <br>
 
-![](images/vsc-markdown/2021-10-08-01-21-43.png)
+![](md-images/vsc-markdown/2021-10-08-01-21-43.png)
 
 <br><br>
 
@@ -80,7 +80,7 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 <br>
 
-![](images/vsc-markdown/2021-10-08-01-21-54.png)
+![](md-images/vsc-markdown/2021-10-08-01-21-54.png)
 
 <br><br>
 
@@ -92,11 +92,11 @@ vsc(Visual Studio Code)에서 마크다운 문서를 작성할 때 이미지 첨
 
 <br>
 
-![](images/vsc-markdown/2021-10-08-01-21-59.png)
+![](md-images/vsc-markdown/2021-10-08-01-21-59.png)
 
 <br>
 
-![](images/vsc-markdown/2021-10-08-01-22-10.png)
+![](md-images/vsc-markdown/2021-10-08-01-22-10.png)
 
 
 <br><br><br>
