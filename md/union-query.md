@@ -25,14 +25,14 @@
 
 ## ♟ UNION 쿼리와 UNION ALL 쿼리란?
 
-### UNION 쿼리
+### 🔷 UNION 쿼리
 
 - 여러 셀렉트의 결과들을 같이 보여준다.
 - 각각 셀렉트의 결과 중 중복되는 레코드는 중복제거를 하고 보여준다.
 
-### UNION ALL 쿼리
+### 🔷 UNION ALL 쿼리
 
-- UNION 쿼리와 비슷하지만 중복되는 레코드가 있더라도 그대로 모두 보여준다.
+- UNION 쿼리와 비슷하지만 중복되는 레코드가 있더라도 중복된 채로 모두 보여준다.
 
 <br><br>
 
@@ -40,9 +40,9 @@
 
 [목차로 이동](#index)
 
-## ♟ UNION 쿼리와 UNION ALL 쿼리 실습
+## ♟ 개별 SELECT 쿼리
 
-### 쿼리 A (deptno = 20)
+### 🔷 쿼리 A (deptno = 20)
 
 ```sql
 SELECT ename, deptno FROM EMP WHERE deptno = 20;
@@ -50,7 +50,7 @@ SELECT ename, deptno FROM EMP WHERE deptno = 20;
 
 ![](md-images/union-query/2021-10-30-20-19-54.png)
 
-### 쿼리 B (deptno = 30)
+### 🔷 쿼리 B (deptno = 30)
 
 ```sql
 SELECT ename, deptno FROM EMP WHERE deptno = 30;
@@ -58,7 +58,7 @@ SELECT ename, deptno FROM EMP WHERE deptno = 30;
 
 ![](md-images/union-query/2021-10-30-20-20-12.png)
 
-### 쿼리 C (deptno = 20 or deptno = 30)
+### 🔷 쿼리 C (deptno = 20 or deptno = 30)
 
 ```sql
 SELECT ename, deptno FROM EMP WHERE deptno = 20 OR deptno = 30;
@@ -66,7 +66,10 @@ SELECT ename, deptno FROM EMP WHERE deptno = 20 OR deptno = 30;
 
 ![](md-images/union-query/2021-10-30-20-20-25.png)
 
-### A쿼리 UNION B쿼리
+
+## ♟ UNION 쿼리와 UNION ALL 쿼리 - 1
+
+### 🔷 A쿼리 UNION B쿼리
 
 ```sql
 SELECT ename, deptno FROM EMP WHERE deptno = 20
@@ -76,7 +79,7 @@ SELECT ename, deptno FROM EMP WHERE deptno = 30;
 
 ![](md-images/union-query/2021-10-30-20-20-51.png)
 
-### A쿼리 UNION ALL B쿼리
+### 🔷 A쿼리 UNION ALL B쿼리
 
 ```sql
 SELECT ename, deptno FROM EMP WHERE deptno = 20
@@ -86,7 +89,9 @@ SELECT ename, deptno FROM EMP WHERE deptno = 30;
 
 ![](md-images/union-query/2021-10-30-20-21-01.png)
 
-### A쿼리 UNION C쿼리
+## ♟ UNION 쿼리와 UNION ALL 쿼리 - 2
+
+### 🔷 A쿼리 UNION C쿼리
 
 ```sql
 SELECT ename, deptno FROM EMP WHERE deptno = 20
@@ -96,7 +101,10 @@ SELECT ename, deptno FROM EMP WHERE deptno = 20 OR deptno = 30;
 
 ![](md-images/union-query/2021-10-30-20-21-13.png)
 
-### A쿼리 UNION ALL C쿼리
+- A쿼리와 C쿼리에서 중복되는 결과는 하나만 보여준다.
+
+
+### 🔷 A쿼리 UNION ALL C쿼리
 
 ```sql
 SELECT ename, deptno FROM EMP WHERE deptno = 20
@@ -106,6 +114,7 @@ SELECT ename, deptno FROM EMP WHERE deptno = 20 OR deptno = 30;
 
 ![](md-images/union-query/2021-10-30-20-21-23.png)
 
+- 쿼리와 C쿼리에서 중복되는 결과에 대해 중복된 채로 모두 보여준다.
 
 
 <br><br><br>
