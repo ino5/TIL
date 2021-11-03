@@ -14,7 +14,7 @@ Today I Learned <br>
 
 <br><br>
 
-# 모든 문서
+# TIL 레퍼지토리 내 모든 문서
 
 
 
