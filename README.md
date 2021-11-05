@@ -39,6 +39,12 @@ Today I Learned <br>
 
 <br>
 
+## 자바스크립트
+
+- [📒 js에서 비동기 통신 실습 및 함수 문법](./md/bucheon-js-ajax-function.md)
+
+<br>
+
 ## SQL 쿼리
 
 - [📒 UNION 쿼리와 UNION ALL 쿼리 알아보기](./md/union-query.md)
