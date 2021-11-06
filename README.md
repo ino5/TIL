@@ -42,6 +42,7 @@ Today I Learned <br>
 ## 자바스크립트
 
 - [📒 js에서 비동기 통신 실습 및 함수 문법](./md/bucheon-js-ajax-function.md)
+- [📒 js - document.getElementById가 리턴하는 것은?](./md/js-document-getelementbyid)
 
 <br>
 
