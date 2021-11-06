@@ -113,6 +113,7 @@ REST API 사이트
     </div>
     <button type="button" onclick="funcGet();">get</button>
 
+
     <!-- POST -->
     <script>
         function funcPost() {
@@ -171,16 +172,16 @@ REST API 사이트
 
             })
                 .then(res => {
-                console.log(res);
-                console.log(res.data.data.email);
-                let div = document.getElementById("get_result");
-                div.innerHTML = JSON.stringify(res);
-                // div.innerHTML = res.data.email;
-            })
-            .catch(error => {
-                console.log(error);
-            });
-        } 
+                    console.log(res);
+                    console.log(res.data.data.email);
+                    let div = document.getElementById("get_result");
+                    div.innerHTML = JSON.stringify(res);
+                    // div.innerHTML = res.data.email;
+                })
+                .catch(error => {
+                    console.log(error);
+                });
+        }
 
     </script>
     <h3>get_result</h3>
@@ -189,6 +190,7 @@ REST API 사이트
     </div>
     <button type="button" onclick="funcGet();">get</button>
 
+
     <!-- POST -->
     <script>
         function funcPost() {
@@ -196,21 +198,21 @@ REST API 사이트
                 method: 'post',
                 url: 'https://reqres.in/api/users',
                 data: {
-                    name : document.getElementById("post_name").value,
-                    job : "leader"
+                    name: document.getElementById("post_name").value,
+                    job: "leader"
                 },
                 responseType: 'json'
 
             })
-            .then(res => {
-                console.log(res);
-                console.log(res.data.id);
-                let div = document.getElementById("post_result");
-                div.innerHTML = JSON.stringify(res);
-            })
-            .catch(error => {
-                console.log(error);
-            });
+                .then(res => {
+                    console.log(res);
+                    console.log(res.data.id);
+                    let div = document.getElementById("post_result");
+                    div.innerHTML = JSON.stringify(res);
+                })
+                .catch(error => {
+                    console.log(error);
+                });
         }
     </script>
     <h3>post_result</h3>
@@ -218,8 +220,9 @@ REST API 사이트
 
     </div>
     name: <input type="text" id="post_name" name="name"><br>
-    <button type="button" onclick="funcPost();">post</button>    
+    <button type="button" onclick="funcPost();">post</button>
 </body>
+
 </html>
 ```
 
@@ -265,6 +268,7 @@ REST API 사이트
     </div>
     <button type="button" onclick="funcGet();">get</button>
 
+
     <!-- POST -->
     <script>
         function funcPost() {
@@ -297,6 +301,7 @@ REST API 사이트
     name: <input type="text" id="post_name" name="name"><br>
     <button type="button" onclick="funcPost();">post</button>
 </body>
+
 </html>
 ```
 
@@ -304,7 +309,7 @@ REST API 사이트
 
 then
 
-```jsx
+```js
 <!-- GET -->
 <script>
     function funcGet() {
@@ -330,7 +335,7 @@ then
 
 async, await
 
-```jsx
+```js
 <!-- GET -->
 <script>
     async function funcGet() {
