@@ -45,7 +45,8 @@ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 ### WSL2를 기본버전으로 설정하기
 PowerShell 관리자권한으로 실행
 다음 명령어 적기
-```shell
+
+```bash
 wsl --set-default-version 2
 wsl -l -v
 ```
@@ -58,7 +59,7 @@ wsl -l -v
 
 시작 > Ubuntu 실행
 
-```shell
+```bash
 sudo apt-get update
 sudo apt-get install build-essential gdb
 gcc --version
@@ -128,7 +129,7 @@ int main() {
 
 컴파일 후 실행해보기
 
-```shell
+```bash
 ls
 gcc hello.c # 컴파일하기
 ls

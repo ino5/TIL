@@ -19,7 +19,7 @@ Today I Learned <br>
 
 
 
-# 과거 TIL 작성 문서
+# TIL 작성 문서
 
 
 
@@ -34,7 +34,7 @@ Today I Learned <br>
 
 - [📒 프로세스 개념](./md/process.md)
 - [📒 프로세스 간 통신](./md/ipc.md)
-- [📒 윈도우10에서 운영체제 실습 위한 리눅스 환경 구축하기 (WSL2)](./md/linux-for-windows.md)
+- [윈도우10에서 운영체제 실습 위한 리눅스 환경 구축하기 (WSL2)](./md/linux-for-windows.md)
 
 <br>
 
