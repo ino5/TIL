@@ -55,6 +55,7 @@ Today I Learned <br>
 ## SQL 쿼리
 
 - [📒 UNION 쿼리와 UNION ALL 쿼리 알아보기](./md/union-query.md)
+- [📒 MERGE문 써보면서 이해해보기](./md/sql-merge.md)
 
 <br>
 
